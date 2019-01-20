@@ -15,6 +15,12 @@
 .container p {
   font-size: 16px;
 }
+
+.dropdown-menu {
+  background: #2E2F31;
+  border: 0;
+}
+
 /*JUMBOTRON STYLES*/
 
 .jumbotron {
