@@ -1,12 +1,16 @@
+<!-- Projects Overview -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Schneider Economics: Projects Overview</title>
-    <link href="styles/style.css" rel="stylesheet" type = "text/css">
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Projects Overview </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel='stylesheet' href='bower_components/glyphicons-only-bootstrap/css/bootstrap.min.css' />
+  <link href="styles/valuation-style.css" rel="stylesheet" type = "text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
 
 <!-- Navbar -->   
 </head>
@@ -25,7 +29,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/index.html">Home</a></li>
-        <li><a href="/about.html">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about-schneider-economics.html">About Schneider Economics, LLC</a></li>
+            <li><a href="/about-jake-schneider.html">About Jake Schneider</a></li>
+          </ul>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -70,9 +79,15 @@
 
 <!-- Footer -->   
 <footer>
-    <div class="container-fluid text-center text-md-left">
+  <div class="container-fluid text-center text-md-left">
     <div class="footer">
-    Schneider Economics, LLC 2019. All Rights Reserved.
+      Schneider Economics, LLC 2019. All Rights Reserved.
+    <div class=".fa">
+      <a href="https://www.linkedin.com/company/schneider-economics/" class="fa fa-linkedin"></a>
+      <a href="https://twitter.com/_jwschneider" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/channel/UCn4Zb1A8G87zXOTLscWx5OA?disable_polymer=true" class="fa fa-youtube"></a>
+    </div>
+    </div>
   </div>
 </div>
 </footer>
