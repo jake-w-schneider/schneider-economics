@@ -47,7 +47,7 @@ h1, p {
 /*All of the below text edits the jumbotron and nav bar with bootstrap modifications*/
 
 .jumbotron {
-  background-image: url("../Images/Schneider Economics Logo-page-001.jpg");
+  background-image: url("../Images/Schneider Economics Logo-page-001.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
