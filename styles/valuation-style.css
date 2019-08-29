@@ -16,7 +16,11 @@
   font-size: 16px;
 }
 
-.container h5 {
+.container h4 {
+  font-size: 12px;
+}
+
+.container h2 {
   font-size: 12px;
 }
 
@@ -26,7 +30,7 @@
 }
 
 /*FOOTER STYLES*/
-.footer {
+.footer p {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -47,6 +51,9 @@ h1, p {
   padding-right: 2px;
 }
 
+.glyphicon-large {
+  font-size: 40px;
+}
 
 /*All of the below text edits the jumbotron and nav bar with bootstrap modifications*/
 
@@ -60,6 +67,24 @@ h1, p {
   text-align: center;
   padding-top: 1;
   padding-bottom: 0;
+}
+
+.information {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding-top: 1;
+  padding-bottom: 0; 
+}
+
+.contact h1 {
+  padding-left: 2px
+  padding-right: 2px;
+  font-size: 2px;
+  text-align: center;
 }
 
 
@@ -232,4 +257,23 @@ h4 {
   background: #FFFFFF;
   color: white;
   border-radius: 8px;
+}
+
+/* Email Button */
+/* Source: https://www.copernica.com/en/blog/post/how-to-create-email-buttons-with-just-html-and-css; */
+
+.button {
+    border-radius: 2px;
+}
+
+.button a {
+    padding: 8px 12px;
+    border: 1px solid #ED2939;
+    border-radius: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;  
 }
