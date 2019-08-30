@@ -29,7 +29,7 @@
   border: 0;
 }
 
-/*FOOTER STYLES*/
+/*BOTTOM STYLES*/
 .footer p {
   left: 0;
   bottom: 0;
@@ -259,21 +259,8 @@ h4 {
   border-radius: 8px;
 }
 
-/* Email Button */
-/* Source: https://www.copernica.com/en/blog/post/how-to-create-email-buttons-with-just-html-and-css; */
+/* Blog Page */
 
-.button {
-    border-radius: 2px;
-}
-
-.button a {
-    padding: 8px 12px;
-    border: 1px solid #ED2939;
-    border-radius: 2px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #ffffff; 
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;  
+.blog-post {
+  text-align: center;
 }
