@@ -259,6 +259,16 @@ h4 {
   border-radius: 8px;
 }
 
+.fa-envelope {
+  background: navy;
+  color: white;
+  width: 120px;
+  font-size: 60px;
+  background-size: 50px;
+  border-radius: 8px;
+  text-align: center;
+}
+
 /* Blog Page */
 
 .blog-post {
