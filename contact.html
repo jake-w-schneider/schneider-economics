@@ -11,6 +11,15 @@
   <link href="styles/valuation-style.css" rel="stylesheet" type = "text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123421218-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-123421218-1');
+  </script>
 </head>
 
 <!-- Navbar -->   
@@ -87,11 +96,11 @@
         <form action="Action/action_page.php">
           First: <input type="text" name="fname"><br>
           Last: <input type="text" name="lname"><br>
-          Group: <select name="cars">
-            <option value="volvo">Working With Us</option>
-            <option value="saab">Learning More</option>
-            <option value="fiat">Research</option>
-            <option value="audi">Employment Opportunitites</option>
+          Contact: <select name="contact">
+            <option value="Working With Us">Working With Us</option>
+            <option value="Learning More">Learning More</option>
+            <option value="Research">Research</option>
+            <option value="Employment Opportunities">Employment Opportunities</option>
             </select><br>
           Organization: <input type="text" name="company"><br>
           Title: <input type="text" name="position"><br>
