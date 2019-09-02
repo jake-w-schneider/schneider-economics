@@ -67,6 +67,8 @@ h1, p {
   text-align: center;
   padding-top: 1;
   padding-bottom: 0;
+  width: 1200px;
+  height: 400px;
 }
 
 .information {
@@ -261,6 +263,16 @@ h4 {
 
 .fa-envelope {
   background: navy;
+  color: white;
+  width: 120px;
+  font-size: 60px;
+  background-size: 50px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.fa-link {
+  background: darkblue;
   color: white;
   width: 120px;
   font-size: 60px;
