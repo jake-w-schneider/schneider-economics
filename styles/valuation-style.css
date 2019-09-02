@@ -67,8 +67,8 @@ h1, p {
   text-align: center;
   padding-top: 1;
   padding-bottom: 0;
-  width: 1200px;
-  height: 400px;
+  width: 100vw;
+  height: 300px;
 }
 
 .information {
