@@ -236,6 +236,9 @@
           .duration(500)
           .delay(150)
           .style('visibility', 'hidden');
+
+        d3.selectAll('.p_e_id')
+          .style ('visibility', 'hidden');
      })
 
     chart.append('g')
